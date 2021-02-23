@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "Poppins-Regular";
+  src: local("OPoppins-Regular"), url("Poppins-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Poppins-Medium";
+  src: local("Poppins-Medium"), url("Poppins-Medium.ttf");
+}
+
+@font-face {
+  font-family: "SourceSansPro-Bold";
+  src: local("SourceSansPro-Bold"), url("SourceSansPro-Bold.ttf");
+}
+
+@font-face {
+  font-family: "SourceSansPro-Regular";
+  src: local("SourceSansPro-Regular"), url("SourceSansPro-Regular.ttf");
+}

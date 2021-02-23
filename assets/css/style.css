@@ -1,0 +1,68 @@
+.slider {
+  background: linear-gradient(
+    224.72deg,
+    rgba(49, 35, 174) -1%,
+    rgba(201, 109, 215) 100.5%
+  );
+  position: relative;
+}
+
+.slider__bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 0;
+}
+
+.slider__title {
+  font-family: "Poppins-Medium";
+  font-size: 40px;
+  color: #fff;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  font-family: "" SourceSansPro-Regular;
+  font-size: 16px;
+  color: #fff;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: #fad65e;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+  color: #ffc300;
+}
+
+.slider__search {
+  padding: 5px 50px;
+}
+
+.slider__search:hover svg {
+  color: #ffc300;
+}
+
+.search__btn {
+  color: #fff;
+  border: 1px solid rgb(255, 255, 255, 0.295063);
+  border-radius: 24px;
+  padding: 10px 45px;
+}
+
+.search__btn:hover {
+  color: #fff;
+  background-color: #ffc300;
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+}
