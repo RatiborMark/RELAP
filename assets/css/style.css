@@ -1,4 +1,4 @@
-.slider {
+.header {
   background: linear-gradient(
     224.72deg,
     rgba(49, 35, 174) -1%,
@@ -7,7 +7,7 @@
   position: relative;
 }
 
-.slider__bg {
+.header__bg {
   position: absolute;
   top: 0;
   left: 0;
@@ -15,7 +15,7 @@
   z-index: 0;
 }
 
-.slider__title {
+.header__title {
   font-family: "Poppins-Medium";
   font-size: 40px;
   color: #fff;
@@ -41,12 +41,12 @@
   color: #ffc300;
 }
 
-.slider__search {
+.header__search {
   padding: 5px 20px;
   transition: all 0.5s;
 }
 
-.slider__search:hover svg {
+.header__search:hover svg {
   color: #ffc300;
 }
 
@@ -63,7 +63,7 @@
   background-color: #ffc300;
 }
 
-.slider__next {
+.header__next {
   width: 50px;
   height: 50px;
   border: 1px solid #ffffff4b;
@@ -72,11 +72,11 @@
   transition: all 0.3s;
 }
 
-.slider__next:hover {
+.header__next:hover {
   border: 1px solid #ffffffa6;
 }
 
-.slider__prev {
+.header__prev {
   width: 50px;
   height: 50px;
   border: 1px solid #ffffff4b;
@@ -85,7 +85,7 @@
   transition: all 0.3s;
 }
 
-.slider__prev:hover {
+.header__prev:hover {
   border: 1px solid #ffffffa6;
 }
 
@@ -94,7 +94,7 @@
   width: 10%;
 }
 
-.slider__img {
+.header__img {
   max-width: 100%;
 }
 
