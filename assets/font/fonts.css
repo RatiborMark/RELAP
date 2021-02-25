@@ -15,3 +15,7 @@
   font-family: "SourceSansPro-ExtraLight";
   src: local("SourceSansPro-ExtraLight"), url("SourceSansPro-ExtraLight.ttf");
 }
+@font-face {
+  font-family: "SourceSansPro-SemiBold";
+  src: local("SourceSansPro-SemiBold"), url("SourceSansPro-SemiBold.ttf");
+}

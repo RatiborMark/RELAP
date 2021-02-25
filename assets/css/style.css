@@ -1,4 +1,4 @@
-.header {
+.slider {
   background: linear-gradient(
     224.72deg,
     rgba(49, 35, 174) -1%,
@@ -7,7 +7,7 @@
   position: relative;
 }
 
-.header__bg {
+.slider__bg {
   position: absolute;
   top: 0;
   left: 0;
@@ -15,7 +15,7 @@
   z-index: 0;
 }
 
-.header__title {
+.slider__title {
   font-family: "Poppins-Medium";
   font-size: 40px;
   color: #fff;
@@ -41,12 +41,12 @@
   color: #ffc300;
 }
 
-.header__search {
+.slider__search {
   padding: 5px 20px;
   transition: all 0.5s;
 }
 
-.header__search:hover svg {
+.slider__search:hover svg {
   color: #ffc300;
 }
 
@@ -63,7 +63,7 @@
   background-color: #ffc300;
 }
 
-.header__next {
+.slider__next {
   width: 50px;
   height: 50px;
   border: 1px solid #ffffff4b;
@@ -72,11 +72,11 @@
   transition: all 0.3s;
 }
 
-.header__next:hover {
+.slider__next:hover {
   border: 1px solid #ffffffa6;
 }
 
-.header__prev {
+.slider__prev {
   width: 50px;
   height: 50px;
   border: 1px solid #ffffff4b;
@@ -85,7 +85,7 @@
   transition: all 0.3s;
 }
 
-.header__prev:hover {
+.slider__prev:hover {
   border: 1px solid #ffffffa6;
 }
 
@@ -94,7 +94,7 @@
   width: 10%;
 }
 
-.header__img {
+.slider__img {
   max-width: 100%;
 }
 
@@ -135,6 +135,53 @@
 .statistics_text {
   font-family: "SourceSansPro-ExtraLight";
   color: #333;
+}
+.product__suptitle {
+  font-family: "Poppins-Bold";
+  text-transform: uppercase;
+}
+.product__title {
+  font-family: "Poppins-Bold";
+  font-size: 56px;
+}
+.product__text {
+  font-family: "SourceSansPro-SemiBold";
+}
+.product__btn {
+  background-color: #c86dd7;
+  border: 1px solid #ffffff4b;
+  border-radius: 24px;
+  padding: 12px 45px;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+
+.product__btn:hover {
+  background-color: #d39fdb;
+}
+.product__item {
+  background: linear-gradient(
+    224.72deg,
+    rgba(49, 35, 174) -1%,
+    rgba(201, 109, 215) 100.5%
+  );
+}
+.product__img-item {
+  left: -8%;
+  top: -5%;
+}
+.product__description {
+}
+.product__item-title {
+  font-family: "Poppins-Bold";
+  font-size: 35px;
+}
+.product__item-text {
+  font-family: "SourceSansPro-ExtraLight";
+  opacity: 0.7;
+}
+.brand {
+  background-color: #3023ae;
 }
 @media (min-width: 992px) {
   .navbar-expand-lg .navbar-nav .nav-link {
